@@ -3,7 +3,8 @@
       "subscriptionId": "8742f75d-84ae-4f1b-b22e-0e63dde0d6f4",
       "resourceGroupName": "System.redmond",
       "location": "redmond",
-      "api-version": "2018-09-01"
+      "api-version": "2018-09-01",
+      "OperationType": "DryRun"
     },
     "responses": {
       "200": {
