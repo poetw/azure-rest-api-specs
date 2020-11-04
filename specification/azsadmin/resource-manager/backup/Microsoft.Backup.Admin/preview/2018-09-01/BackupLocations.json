@@ -376,9 +376,9 @@
       "properties": {
         "properties": {
           "description": "Holds information for a backup.",
-          "$ref": "#/definitions/PruneModel"
-        },
-        "x-ms-client-flatten": true
+          "$ref": "#/definitions/PruneModel",
+          "x-ms-client-flatten": true
+        }
       }
     }
   },
