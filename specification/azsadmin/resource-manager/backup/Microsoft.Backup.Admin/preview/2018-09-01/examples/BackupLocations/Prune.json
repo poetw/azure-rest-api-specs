@@ -9,13 +9,6 @@
     "responses": {
       "200": {
         "body": {
-            "id":"/subscriptions/abadebb1-df95-427e-b188-6730a206bc86/resourceGroups/system.redmond/providers/Microsoft.Backup.Admin/backupLocations/redmond",
-            "name":"redmond",
-            "type":"Microsoft.Backup.Admin/backupLocations",
-            "location":"redmond",
-            "tags":{
-               
-            },
             "properties":{
                "pathsToDelete":[
                   "masbackup/progressivebackup/1.2011.0.23/BackupEncryptionCert.cer",
@@ -23,6 +16,8 @@
                ]
             }
          }
+      },
+      "202": {
       }
     }
 }

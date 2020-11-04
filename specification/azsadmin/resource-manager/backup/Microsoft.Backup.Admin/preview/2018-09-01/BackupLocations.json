@@ -351,7 +351,7 @@
       "type": "object",
       "description": "Prune backup store operation model.",
       "properties": {
-        "OperationType": {
+        "operationType": {
           "description": "Operation type.",
           "$ref": "#/definitions/PruneBackupStoreOperationType"
         }
@@ -377,7 +377,8 @@
         "properties": {
           "description": "Holds information for a backup.",
           "$ref": "#/definitions/PruneModel"
-        }
+        },
+        "x-ms-client-flatten": true
       }
     }
   },
